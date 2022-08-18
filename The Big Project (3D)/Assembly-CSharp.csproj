@@ -53,7 +53,9 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\TerrainGen\Scripts\WallGenerator.cs" />
     <Compile Include="Assets\TerrainGen\Scripts\HouseGenerator.cs" />
+    <Compile Include="Assets\TerrainGen\Scripts\HouseGenerator2.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

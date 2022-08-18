@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8939562914510798433}
+  - component: {fileID: 2424838598424938100}
+  - component: {fileID: 6426332791430056122}
   - component: {fileID: 1961262954734196784}
   - component: {fileID: 5753733441231500930}
   - component: {fileID: 704089760097681991}
@@ -34,6 +36,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2424838598424938100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3576993799036634337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56986a823e596340b9989c31c316594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChunkDiameter: 10
+  NodeRadius: 4
+--- !u!114 &6426332791430056122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3576993799036634337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48ccec7895b48b04f918a3d947a9df32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Openings: 1
+  OpeningLength: 2
+  WallSegmentLength: 5
+  DistanceFromMiddle: 5
+  Corners: 6
 --- !u!114 &1961262954734196784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46,7 +79,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1394f55e52652a488d0f6d23847d4b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GroundMesh: {fileID: 0}
+  LineAmount: 1
+  HouseOffset: 2
+  HousePrefabs: []
 --- !u!33 &5753733441231500930
 MeshFilter:
   m_ObjectHideFlags: 0
