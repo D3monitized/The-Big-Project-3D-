@@ -335,6 +335,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8373451397081156977, guid: 96d0faaff47f2ec4c80fd7ee9da1da99, type: 3}
     - target: {fileID: 2424838598424938100, guid: 5d14f60f82faa42429e49d032725b18c, type: 3}
+      propertyPath: AmountOfHouses
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2424838598424938100, guid: 5d14f60f82faa42429e49d032725b18c, type: 3}
       propertyPath: HousePrefabs.Array.size
       value: 2
       objectReference: {fileID: 0}

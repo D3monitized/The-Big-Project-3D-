@@ -431,6 +431,7 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\FrameRateManager.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Decorators\GeNaMaterialDecorator.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\PerlinNoise.cs" />
+    <Compile Include="Assets\TerrainGen\Scripts\ChunkGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Procedural Worlds\GeNa\Resources\Shaders\Road\PW_Spline_LitBasic_BuiltIn.shader" />

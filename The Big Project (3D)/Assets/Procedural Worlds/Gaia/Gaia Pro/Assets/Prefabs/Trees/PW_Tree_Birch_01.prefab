@@ -336,18 +336,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5434103612825755322}
     m_Modifications:
-    - target: {fileID: 1034750358360096823, guid: 13d7c28633b47f1479af8b9443249256,
-        type: 3}
+    - target: {fileID: 1034750358360096823, guid: 13d7c28633b47f1479af8b9443249256, type: 3}
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 1034750358360096823, guid: 13d7c28633b47f1479af8b9443249256,
-        type: 3}
+    - target: {fileID: 1034750358360096823, guid: 13d7c28633b47f1479af8b9443249256, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 82
       objectReference: {fileID: 0}
-    - target: {fileID: 3030205571705170351, guid: 13d7c28633b47f1479af8b9443249256,
-        type: 3}
+    - target: {fileID: 3030205571705170351, guid: 13d7c28633b47f1479af8b9443249256, type: 3}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
@@ -355,13 +352,11 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 13d7c28633b47f1479af8b9443249256, type: 3}
 --- !u!4 &753433009724561806 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3030205571705170351, guid: 13d7c28633b47f1479af8b9443249256,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 3030205571705170351, guid: 13d7c28633b47f1479af8b9443249256, type: 3}
   m_PrefabInstance: {fileID: 2340122196330606625}
   m_PrefabAsset: {fileID: 0}
 --- !u!23 &5371785703247439582 stripped
 MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 7707244595249092351, guid: 13d7c28633b47f1479af8b9443249256,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 7707244595249092351, guid: 13d7c28633b47f1479af8b9443249256, type: 3}
   m_PrefabInstance: {fileID: 2340122196330606625}
   m_PrefabAsset: {fileID: 0}
