@@ -110,6 +110,7 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\OpenInFileBrowser.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Task System\GaiaTaskBase.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\API\NoiseType.cs" />
+    <Compile Include="Assets\TerrainGen\Scripts\ChunkGenerator.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\HDRPDensityVolumeController.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaHDRPRuntimeUtils.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Scripts\Utils\GaiaLoadingScreen.cs" />
@@ -431,7 +432,6 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\FrameRateManager.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Decorators\GeNaMaterialDecorator.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\PerlinNoise.cs" />
-    <Compile Include="Assets\TerrainGen\Scripts\ChunkGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Procedural Worlds\GeNa\Resources\Shaders\Road\PW_Spline_LitBasic_BuiltIn.shader" />
@@ -472,6 +472,7 @@
     <None Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Procedural Worlds\Flora\Content Resources\Shaders\PW_FloraIncludes_HDRP.hlsl" />
     <None Include="Assets\Procedural Worlds\GeNa\Resources\Compute\Includes\NoiseGenerator.cginc" />
+    <None Include="Assets\Sota\Art\Shader\Normal-Diffuse.shader" />
     <None Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Scripts\Unity\Terrain Tools\license.txt" />
     <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Standard Shaders\StampPreview.shader" />
     <None Include="Assets\Procedural Worlds\GeNa\Resources\Compute\Includes\Bounds.cginc" />
