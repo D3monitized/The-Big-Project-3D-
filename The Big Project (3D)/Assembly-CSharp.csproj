@@ -110,7 +110,6 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\OpenInFileBrowser.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Task System\GaiaTaskBase.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\API\NoiseType.cs" />
-    <Compile Include="Assets\TerrainGen\Scripts\ChunkGenerator.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\HDRPDensityVolumeController.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaHDRPRuntimeUtils.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Scripts\Utils\GaiaLoadingScreen.cs" />
@@ -264,11 +263,9 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Reflections\ReflectionMasker.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Mesh Simplifier\Runtime\BlendShape.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MultiTerrainSystem\TerrainLoaderManager.cs" />
-    <Compile Include="Assets\TerrainGen\Scripts\WallGenerator.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\TreeManager.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Decorators\GeNaPhysicsDecorator.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\SpawnExtensions\GeNaProSpawnExtension.cs" />
-    <Compile Include="Assets\TerrainGen\Scripts\HouseGenerator.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SessionSystem\SpawnOperationSettings.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\Post Processing Converter\PostProcessingConverter.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Components\GeNaMapBuilder.cs" />
@@ -282,7 +279,6 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Weather\VFX\Scripts\InteriorWeatherController.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Components\GeNaTools.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\NoiseSettingsAssetEditor.cs" />
-    <Compile Include="Assets\TerrainGen\Scripts\HouseGenerator2.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Utility\CurveControlledBob.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\HDRP Time Of Day\Content Resources\Weather\Sand Storm\Scripts\WeatherFXSand.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Decorators\GeNaTerrainDecorator.cs" />
@@ -432,6 +428,10 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\FrameRateManager.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Decorators\GeNaMaterialDecorator.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\PerlinNoise.cs" />
+    <Compile Include="Assets\TerrainGen\Scripts\HouseGenerator.cs" />
+    <Compile Include="Assets\TerrainGen\Scripts\HouseGenerator2.cs" />
+    <Compile Include="Assets\TerrainGen\Scripts\WallGenerator.cs" />
+    <Compile Include="Assets\TerrainGen\Scripts\ChunkGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Procedural Worlds\GeNa\Resources\Shaders\Road\PW_Spline_LitBasic_BuiltIn.shader" />
