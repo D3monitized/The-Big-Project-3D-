@@ -110,6 +110,7 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\OpenInFileBrowser.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Task System\GaiaTaskBase.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\API\NoiseType.cs" />
+    <Compile Include="Assets\TerrainGen\Chunk\ChunkGenerator.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\HDRPDensityVolumeController.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaHDRPRuntimeUtils.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Scripts\Utils\GaiaLoadingScreen.cs" />
@@ -428,10 +429,8 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\FrameRateManager.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Decorators\GeNaMaterialDecorator.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\PerlinNoise.cs" />
-    <Compile Include="Assets\TerrainGen\Scripts\HouseGenerator.cs" />
-    <Compile Include="Assets\TerrainGen\Scripts\HouseGenerator2.cs" />
-    <Compile Include="Assets\TerrainGen\Scripts\WallGenerator.cs" />
-    <Compile Include="Assets\TerrainGen\Scripts\ChunkGenerator.cs" />
+    <Compile Include="Assets\TerrainGen\Scripts\PrefabGridGenerator.cs" />
+    <Compile Include="Assets\TerrainGen\Chunk\ChunkBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Procedural Worlds\GeNa\Resources\Shaders\Road\PW_Spline_LitBasic_BuiltIn.shader" />
