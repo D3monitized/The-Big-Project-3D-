@@ -277,6 +277,7 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MultiTerrainSystem\Editor\Gaia2TopPanel.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\BiomeListEditor.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\SRPConversionUtils.cs" />
+    <Compile Include="Assets\Editor\ChunkGeneratorEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Procedural Worlds\Frameworks\Common5\Editor\PWCommon5EditorDLL.dll" />

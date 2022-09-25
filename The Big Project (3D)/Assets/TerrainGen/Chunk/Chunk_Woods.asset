@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eef5c02fdde5cd42824106cd25f1275, type: 3}
   m_Name: Chunk_Woods
   m_EditorClassIdentifier: 
-  SpawnChance: 75
+  SpawnChance: 90
   MaxSlopeForSpawning: 65
   Prefabs:
   - {fileID: 7441485611270874908, guid: 7b5c3edd94599954ea2c0d9b3f1b4a6c, type: 3}

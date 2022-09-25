@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEditor; 
+using System.Collections.Generic; 
 
 public class PrefabGridGenerator : MonoBehaviour
 {
@@ -15,6 +17,7 @@ public class PrefabGridGenerator : MonoBehaviour
 	private Vector3 ChunkPosition;
 	private Vector2 ChunkSize;
 
+	[HideInInspector] [SerializeField]
 	private PrefabPlot[,] PrefabPlots;
 	private int AmountOfPrefabsHor;
 	private int AmountOfPrefabsVer;
@@ -33,6 +36,7 @@ public class PrefabGridGenerator : MonoBehaviour
 			prefabs = chunkInfo.Prefabs;
 		
 		GeneratePrefabPlots();
+		BuildPrefabs();		
 	}
 
 	private void GeneratePrefabPlots()
@@ -72,9 +76,7 @@ public class PrefabGridGenerator : MonoBehaviour
 
 			currentPos.z -= PrefabPlotRadius * 2;
 			currentPos.x = startPos.x;
-		}
-
-		BuildPrefabs();
+		}		
 	}
 
 	private void BuildPrefabs()
@@ -96,9 +98,10 @@ public class PrefabGridGenerator : MonoBehaviour
 				{
 					GameObject prefab = Instantiate(prefabs[Random.Range(0, prefabs.Length)], PrefabPlots[x, y].Position, rot);
 					prefab.GetComponent<Transform>().RotateAround(prefab.transform.position, prefab.transform.up, randAngle);
+					prefab.transform.SetParent(GameObject.Find("TerrainGen_GeneratedPrefabs").transform); 
 				}				
 			}
-		}		
+		}
 	}
 
 	private Vector3 GetTerrainHeight(Vector3 position)
@@ -127,13 +130,14 @@ public class PrefabGridGenerator : MonoBehaviour
 		return newRotation;
 	}
 
+#if UNITY_EDITOR
 	private void OnDrawGizmos()
 	{
-		if (!Application.isPlaying)
+		if (EditorApplication.isPlaying)
 			return;
 
-		if (PrefabPlots.GetLength(1) == 0)
-			return;
+		if (PrefabPlots == null)
+			PrefabPlots = new PrefabPlot[0, 0];
 
 		foreach (PrefabPlot prefab in PrefabPlots)
 		{
@@ -141,6 +145,7 @@ public class PrefabGridGenerator : MonoBehaviour
 			Gizmos.DrawWireCube(prefab.Position, Vector3.one * prefab.Radius * 2);
 		}
 	}
+#endif
 
 	struct PrefabPlot
 	{
