@@ -53,231 +53,7 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\ConvertStamps.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Extensions\GeNaClearTreesExtensionEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Utilities\SdfShapeUtility.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\GaiaSceneManagement.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Preferences.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaTerrainHeightAdjuster.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\UIConfigurationEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaObjectLayerDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaBuilderDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\EditorCoroutines\EditorCoroutineUtility.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\WorldGeneratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\GeNaMapBuilderEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Events\GeNaEditorEvents.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaParticleDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaURPPipelineUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\PWSkyPostProcessingManagerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Extensions\GeNaSpawnerExtensionEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Editor\GaiaWater.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\FreeCameraEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\HDRPDensityVolumeControllerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\GeNaInitializeOnLoad.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\GeNaManagerSceneEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaWelcome.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Mesh Simplifier\Editor\SerializedPropertyExtensions.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaSpawnFlagsDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\GeNaSpawnerSave.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\LightProbeUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\GaiaLightingEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\SpawnerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\TerrainConverterEditorWindow.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Extensions\GeNaRoadPreprocessBuild.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaResourceEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\GlobalSpawnDialog.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Utilities\CustomMenuEntries.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\ScreenShotterEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaRemovalEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\API\Editor\DemoAPIControllerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaTerrainTreeDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\GeNaGaiaGeoSpacialUtility.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaEditorUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\Editor\PhotoModeEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\GaiaLightingProfileEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\CommandBufferManagerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\HDRP Time Of Day\Scripts\Editor\WeatherShaderManagerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Extensions\GeNaRoadExtensionEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\HDRPDensityVolumeComponentEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\UserFilesEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\AboutEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaSessionEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\GaiaGlobalEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Scripts\Utils\Editor\FloatingPointFixGX.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaNormalExporterEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Extensions\GeNaRiverExtensionEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Weather\VFX\Scripts\Editor\PW_VFX_CloudsEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaTerrainExplorerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\ScannerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\PWApp.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Extensions\GeNaExtrusionExtensionEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\Location System\Editor\LocationSystemEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\Editor\ParentScalerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Reflections\Editor\ReflectionMaskerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Editor\AdvancedWaterUtilsEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaMaintenanceProfileEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaExtensionExporterEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\Editor\PhotoModeProfileEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\BiomeControllerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\CommandBufferManagerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Utilities\EditorTime.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\GaiaSkiesGX.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Editor\PW_Water_MaterialEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\External\Editor\SRPRiverEvents.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\PWApp.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Utilities\GeNaHDRPUtility.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\RiverFlow2Editor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MultiTerrainSystem\Editor\TerrainLoaderManagerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Weather\VFX\Scripts\Editor\InteriorWeatherControllerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\HDRP Time Of Day\Scripts\Editor\HDRPTimeOfDayOverrideVolumeEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Utilities\LightProbeUtility.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Utilities\ScriptableObjectDrawer.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\Editor\ExportNoiseWindow.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\SpawnerSettingsEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\EditorCoroutines\EditorCoroutine.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Extensions\FlowCaptureHelper.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaTransformDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaPrefabUnpackerDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Extensions\GeNaClearDetailsExtensionEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaDefinesEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaGrassMaskExporterEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Extensions\GeNaCarveExtensionEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\Location System\Editor\LocationManagerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaSubSpawnerDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\ExportTextureEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\External\Editor\GeNaGaiaUtility.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaStdMenu.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Utilities\GeNaMaterialDecoratorDatabaseEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\FloraEditorUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\RiverProfileEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\StampingSystem\Editor\WorldMapEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\ExportTerrain.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaLWRPPipelineUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\StampingSystem\Editor\StamperAutoSpawnerListEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaStampSelectorEditorWindow.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaResourceHelper.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\WorldBiomeMasksEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\GeNaEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaBoundsDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\TerrainDetailOverwriteEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Weather\VFX\Scripts\Editor\PW_VFX_AtmosphereEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Utilities\PrefabUnpackerUtility.cs" />
     <Compile Include="Assets\Editor\ChunkGeneratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaSpawnCriteriaDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\HDRP Time Of Day\Scripts\Editor\HDRPTimeOfDayEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\Post Processing Converter\Editor\PostProcessingConverterEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\UnityPipelineProfileEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaMaskExporterEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\ReflectionProbeEditorUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Frameworks\Common5\Editor\PWCommonMenuAG.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Task System\Editor\GaiaTaskEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaOneChildOfDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Editor\GaiaWaterGX.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Utilities\GeNaTerrainTreeConverterEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\GeNaRoadProfileEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Scripts\Utils\Editor\GaiaAudioManagerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\HDRP Time Of Day\Scripts\Editor\HDRPTimeOfDayScriptDefines.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\BiomePresetEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MaskSystem\Editor\CollisionMaskListEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\External\Editor\GaiaTimeOfDayLightSyncEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaStopwatchDatasetEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\GeNaManagerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\StampingSystem\Editor\StamperSettingsEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Utilities\GeNaDecoratorEditorUtility.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\StamperEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\AutoDepthOfFieldEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Mesh Simplifier\Editor\LODGeneratorHelperEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\UndoProManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\TexturePickerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\StampingSystem\Editor\WorldMapStampTokenEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\GeNaStyles.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Unity\CylinderBoundsHandle.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\SceneProfileEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\External\Editor\PostProcessingBugFix.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Archived\GeNaSplineEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Editor\DisableUnderwaterFXTriggerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Scripts\Utils\Editor\LowPolyHelper.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Scripts\MultiTerrainSystem\Editor\TerrainLoaderEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Archived\DataBufferScriptableEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\RiverReflectionProbeManagerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Editor\PW_WaterUnder_MaterialEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Editor\GaiaWaterProfileEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Utilities\GeNaEditorUtility.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\SimpleCameraLayerCullingEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\EditorUtilsExtensions.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\GeNaUndoProcessorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaDefaultsEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaSessionManagerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaGaiaDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Editor\GaiaUnderwaterEffectsEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\GaiaWaterEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\GeNaEditorUpgrader.cs" />
-    <Compile Include="Assets\Procedural Worlds\Frameworks\PWAddressables1\Editor\PWAddressableDefineEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaManagerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\GeNaRiverProfileEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaWaterflowMapEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaHDRPPipelineUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\TerrainHelperEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\WindManagerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Archived\GeNaSpawnerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Tools\GeNaToolsEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\SpawnerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\ShorelineMaskerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\RoadProfileEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaStopwatchControlEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Editor\OverCloudExtension.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Extensions\GeNaTerrainExtensionEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\EditorUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Tools\GeNaToolsEditorWindow.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\SpawnerSettingsListEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\GeNaStdMenu.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\ResourceVisualiserEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Biomes\CTS Profiles\Editor\CTSGX.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Shaders\Scripts\Editor\PW_General_MaterialEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MaskSystem\Editor\MaskMapExportSettingsEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaPhysicsDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Scene Managment\Editor\GaiaPlayerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\GaiaLighting.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Reflections\Editor\GaiaPlanarReflectionsHDRPEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Extensions\GeNaSplineExtensionEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaScriptOrderManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Extensions\GeNaRiverPreprocessBuild.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\GeNaDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaTerrainStitcher.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Asset Samples\Script Examples\Scripts\Editor\GeNaGrowthDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Scripts\Utils\Editor\ReflectionProbeManagerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Archived\GeNaSpawnerDataEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\RiverFlowEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Reflections\Editor\GaiaPlanarReflectionsEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\StampingSystem\Editor\StamperAutoMaskExportListEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\WorldDesignerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\PackageInstallerUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Weather\VFX\Scripts\Editor\ProceduralWorldsGlobalWeatherEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Extensions\GeNaRiverScriptDefine.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Scripts\Utils\Editor\GaiaAudioZoneManagerEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\API\Editor\APITestEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MaskSystem\Editor\ImageMaskListEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\ConvertTerrains.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\HDRP Time Of Day\Scripts\Editor\HDRPTimeOfDayWeatherProfileEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Frameworks\PWAddressables1\Editor\PWAddressableContentPackConfigEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Utilities\EditorExtensions.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\SplineEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaChanceOfDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\SpawnerGroupEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaAnimatorDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Scripts\MultiTerrainSystem\Editor\WorldOriginEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Extensions\GeNaClearCollidersExtensionEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Scripts\Mask System\Editor\MaskMapExportEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaTerrainDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\GaiaHierarchyUtilsEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Reflections\Editor\PWS_WaterReflectionsEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\SelectProfileWindowEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Editor\CreateGaiaScriptsOnlyPackage.cs" />
-    <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Editor\Decorators\GeNaMaterialDecoratorEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MultiTerrainSystem\Editor\Gaia2TopPanel.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\Editor\BiomeListEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\Editor\SRPConversionUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Procedural Worlds\Frameworks\Common5\Editor\PWCommon5EditorDLL.dll" />
@@ -519,29 +295,14 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="PWCleanUp4EditorDLL">
-      <HintPath>Assets\Procedural Worlds\Frameworks\CleanUp4\Editor\PWCleanUp4EditorDLL.dll</HintPath>
-    </Reference>
-    <Reference Include="ProceduralWorlds.Flora.Core">
-      <HintPath>Assets\Procedural Worlds\Flora\Scripts\Core\ProceduralWorlds.Flora.Core.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="PWCommon5DLL">
-      <HintPath>Assets\Procedural Worlds\Frameworks\Common5\PWCommon5DLL.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="GeNa.Scripts.Core">
-      <HintPath>Assets\Procedural Worlds\GeNa\Scripts\Core\GeNa.Scripts.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="PWCommon5EditorDLL">
-      <HintPath>Assets\Procedural Worlds\Frameworks\Common5\Editor\PWCommon5EditorDLL.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
@@ -941,14 +702,6 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{ED181DFB-852D-0F31-E4C0-79B17521CDBB}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="ProceduralWorlds.Flora.Runtime.csproj">
-      <Project>{5F6393A2-8FA9-DFD1-4ECD-3CC41E32462B}</Project>
-      <Name>ProceduralWorlds.Flora.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="ProceduralWorlds.Flora.Editor.csproj">
-      <Project>{790530D4-0354-74AF-BD59-16ACBA4FE403}</Project>
-      <Name>ProceduralWorlds.Flora.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

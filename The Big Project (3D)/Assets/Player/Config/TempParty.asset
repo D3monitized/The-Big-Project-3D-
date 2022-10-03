@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 812be888b6f2e2542bdf13b7001c55e5, type: 3}
+  m_Name: TempParty
+  m_EditorClassIdentifier: 
+  PartyMembers:
+  - {fileID: 719604542770232755, guid: 1c47b4764fb3783429c019cb48d0844c, type: 3}
+  - {fileID: 719604542770232755, guid: 1c47b4764fb3783429c019cb48d0844c, type: 3}
+  - {fileID: 719604542770232755, guid: 1c47b4764fb3783429c019cb48d0844c, type: 3}
+  - {fileID: 719604542770232755, guid: 1c47b4764fb3783429c019cb48d0844c, type: 3}
+  Offsets:
+  - {x: 0, y: 0, z: 0}
+  - {x: -2, y: 0, z: -2}
+  - {x: 0, y: 0, z: -2}
+  - {x: 2, y: 0, z: -2}

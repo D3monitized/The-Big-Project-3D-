@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections.Generic; 
 
 [CreateAssetMenu(fileName = "NewChunkBase", menuName = "TerrainGen/New Chunk Base")]
 public class ChunkBase : ScriptableObject

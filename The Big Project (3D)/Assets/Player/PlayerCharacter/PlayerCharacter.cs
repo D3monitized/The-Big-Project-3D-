@@ -4,37 +4,33 @@ using UnityEngine.AI;
 public class PlayerCharacter : MonoBehaviour, IControllable
 {
 	private NavMeshAgent Agent;
-	private Vector3 TargetDestination;
 
-	private void Start()
+	private void Awake()
 	{
-		Agent = GetComponent<NavMeshAgent>();		
+		Agent = GetComponent<NavMeshAgent>();
 	}
 
-	private void Update()
+	public void OnMove(Vector3 destination)
 	{
-		print(Agent.pathPending);
-		if(TargetDestination != null)
-			Agent.SetDestination(TargetDestination); 
+		Agent.SetDestination(destination);
+	}
+	public void OnMoveMultiple(Vector3 destination)
+	{
+		Agent.SetDestination(destination); 
 	}
 
-	public void OnWalk(Vector3 _position)
+	public void OnPosess()
 	{
-		NavMeshHit nHit;
-		if(NavMesh.SamplePosition(_position, out nHit, 5, 0))
-			TargetDestination = nHit.position; 
-		
-		//Agent.SetDestination(_position);
-
-		print("OnWalk"); 
+		print("Posessed: " + name);
+		if (transform.Find("Plane"))
+			transform.Find("Plane").gameObject.SetActive(true); 
 	}
 
-	public void OnPossess()
+	public void OnDeposess()
 	{
-		print("Now Possessing: " + name); 
+		print("Deposessed: " + name);
+		if (transform.Find("Plane"))
+			transform.Find("Plane").gameObject.SetActive(false);
 	}
-	public void OnDepossess()
-	{
-		print("No longer Possessing: " + name);
-	}	
+
 }

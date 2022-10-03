@@ -32,7 +32,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""name"": """",
                     ""id"": ""451c0fe6-ac81-4d8d-8b2f-c8f1dd041ae0"",
                     ""path"": ""<Mouse>/leftButton"",
-                    ""interactions"": ""Press"",
+                    ""interactions"": ""Hold(duration=0.01)"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Interaction"",
