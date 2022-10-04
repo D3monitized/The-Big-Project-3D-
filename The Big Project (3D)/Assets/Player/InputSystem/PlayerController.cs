@@ -4,11 +4,19 @@ using System.Collections.Generic;
 
 public class PlayerController : MonoBehaviour
 {
+	public static PlayerController Instance; 
+	public PlayerInputConfig Config; 
+
 	private List<IControllable> Posession;
 	private SelectionComponent SelComp;
 
 	private void Awake()
 	{
+		if (Instance != null && Instance != this)
+			Destroy(this);
+		else
+			Instance = this; 
+
 		TryGetComponent<SelectionComponent>(out SelComp);
 		Posession = new List<IControllable>(); 
 	}
@@ -71,7 +79,33 @@ public class PlayerController : MonoBehaviour
 				Posession.Add(hit.collider.GetComponent<IControllable>());
 				Posession[0].OnPosess(); 
 			}
-		}	
-		
+		}			
 	}	
+
+	public void OnCameraMoveInput(InputAction.CallbackContext context)
+	{
+		Vector2 move = context.action.ReadValue<Vector2>();
+		GetComponent<CameraController>().RecieveMoveInput(move);
+	}
+
+	private bool isLocked = true;
+	public void OnCameraRotInputLock(InputAction.CallbackContext context)
+	{
+		if (context.performed)
+			isLocked = false;
+		else if (context.canceled)
+			isLocked = true; 
+	}
+
+	public void OnCameraRotInput(InputAction.CallbackContext context)
+	{
+		if (isLocked)
+		{
+			GetComponent<CameraController>().RecieveRotInput(Vector2.zero);
+			return; 
+		}
+
+		Vector2 rot = context.action.ReadValue<Vector2>();
+		GetComponent<CameraController>().RecieveRotInput(rot); 
+	}
 }
