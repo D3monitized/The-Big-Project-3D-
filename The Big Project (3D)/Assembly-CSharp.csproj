@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{ED181DFB-852D-0F31-E4C0-79B17521CDBB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -107,6 +108,7 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\GaiaMaintenanceProfile.cs" />
     <Compile Include="Assets\Player\PlayerCharacter\PlayerCharacter.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\ScaleTexture.cs" />
+    <Compile Include="Assets\Player\PlayerCharacter\PlayerTurnBasedMovement.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Scene Managment\GaiaScenePlayer.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\OpenInFileBrowser.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Task System\GaiaTaskBase.cs" />
@@ -121,7 +123,6 @@
     <Compile Include="Assets\Procedural Worlds\Frameworks\PWAddressables1\DemoClient\Scripts\WorldSelectionConfiguration.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Mesh Simplifier\Runtime\MeshSimplifier.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
-    <Compile Include="Assets\Player\InputSystem\PlayerControls.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaStopwatchControl.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MaskSystem\MaskMapExportSettings.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\WorldGenerator.cs" />
@@ -139,6 +140,7 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\API\NoiseShaderGenerator.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\HDRP Time Of Day\Scripts\HDRPTimeOfDayAmbientProfile.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Scripts\CarController.cs" />
+    <Compile Include="Assets\Game\Scripts\CombatManager.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\PWSkyPostProcessingManager.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Utilities\GeNaTerrainTreeConverter.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Weather\VFX\Scripts\GroundParticlesCulling.cs" />
@@ -246,13 +248,13 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\Spawner.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Task System\Tasks\QuickLightingBakeTask.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Weather\VFX\Scripts\ProceduralWorldsGlobalWeather.cs" />
+    <Compile Include="Assets\Player\Config\PlayerControls.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Scripts\CarAIControl.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Erosion\IBrushUIGroup.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MaskSystem\GaiaNoiseSettings.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\AutoAssignTakePhotoEvent.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\AutoDepthOfField.cs" />
-    <Compile Include="Assets\Player\InputSystem\SelectionComponent.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Mesh Simplifier\Runtime\Components\LODGeneratorHelper.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\External\GeNaToGaiaSpawnerExtension.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\GaiaLightingProfileValues.cs" />
@@ -265,6 +267,7 @@
     <Compile Include="Assets\Procedural Worlds\GeNa\Asset Samples\Script Examples\Scripts\GeNaGrowthDecorator.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\ObjectLayerUtility.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Reflections\ReflectionMasker.cs" />
+    <Compile Include="Assets\Player\PlayerCharacter\CombatantBase.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Mesh Simplifier\Runtime\BlendShape.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MultiTerrainSystem\TerrainLoaderManager.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\TreeManager.cs" />
@@ -272,6 +275,7 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\SpawnExtensions\GeNaProSpawnExtension.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SessionSystem\SpawnOperationSettings.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\Post Processing Converter\PostProcessingConverter.cs" />
+    <Compile Include="Assets\Player\PlayerCharacter\EnemyCharacter.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Components\GeNaMapBuilder.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\CommandBufferManager.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Mesh Simplifier\Runtime\Math\Vector3d.cs" />
@@ -289,6 +293,7 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceVisualiser.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\TooltipTrigger.cs" />
+    <Compile Include="Assets\Game\Scripts\UI\CombatUIManager.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\ReflectionProbeUtils.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Extensions\GeNaClearDetailsExtension.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Compatible\AQUASWaterSet.cs" />
@@ -297,6 +302,7 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\UnityPipelineProfile.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Components\RiverFlow.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\Weather\VFX\Scripts\PW_VFX_Clouds.cs" />
+    <Compile Include="Assets\Player\InputSystem\MouseUIComponent.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\API\NoiseUtils.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\RidgeNoise.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Template.cs" />
@@ -325,6 +331,7 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
     <Compile Include="Assets\TerrainGen\Scripts\NavGenerator.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\StampingSystem\WorldMapStampToken.cs" />
+    <Compile Include="Assets\Player\PlayerCharacter\PlayerFreeMovement.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\HeightMap.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\BiomeController.cs" />
@@ -370,6 +377,8 @@
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Decorators\GeNaAnimatorDecorator.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoGameObjectSO.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaStopwatch.cs" />
+    <Compile Include="Assets\Game\Scripts\UI\Portrait.cs" />
+    <Compile Include="Assets\Player\PlayerCharacter\PlayerManager.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\NoiseComponentEditor.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ScanningSystem\BinaryReaderMac.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Mesh Simplifier\Runtime\Internal\Triangle.cs" />
@@ -425,6 +434,7 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Compatible\DistingoGaiaExtension.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\ISpawnExtension.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\HDRP Time Of Day\Scripts\HDRPTimeOfDayReflectionProbeSync.cs" />
+    <Compile Include="Assets\Player\PlayerCharacter\EnemyController.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Components\SpawnerData.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MaskSystem\BakedMaskCache.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MultiTerrainSystem\TerrainSceneStorage.cs" />
@@ -434,13 +444,14 @@
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\API\NoiseLib.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Components\ByteData.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\OrthographicBake.cs" />
+    <Compile Include="Assets\Player\InputSystem\PlayerInputConfig.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\CameraController.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Gaia Pro\HDRP Time Of Day\Scripts\HDRPTimeOfDayPostFXProfile.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoDetailSO.cs" />
+    <Compile Include="Assets\Player\Config\CharacterStatsBase.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\FrameRateManager.cs" />
     <Compile Include="Assets\Procedural Worlds\GeNa\Scripts\Runtime\Decorators\GeNaMaterialDecorator.cs" />
     <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\PerlinNoise.cs" />
-    <Compile Include="Assets\Player\InputSystem\PlayerInputConfig.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Procedural Worlds\GeNa\Resources\Shaders\Road\PW_Spline_LitBasic_BuiltIn.shader" />

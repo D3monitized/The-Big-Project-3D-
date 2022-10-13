@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3202334437889917167}
   - component: {fileID: 5771454576812591781}
+  - component: {fileID: 1434005469}
   m_Layer: 0
   m_Name: _GameManager
   m_TagString: Untagged
@@ -43,5 +44,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a18e3d50f16b2458441bf59a7f0eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PartyInfo: {fileID: 11400000, guid: 8eb8a34eebf684e418924dd688b7cd57, type: 2}
   PartyMembers: []
+  CurrentGameState: 0
+  PartyInfo: {fileID: 11400000, guid: 8eb8a34eebf684e418924dd688b7cd57, type: 2}
+--- !u!114 &1434005469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3202334437889917160}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a6b11f144b08a488e10c4bff48d66d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

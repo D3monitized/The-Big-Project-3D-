@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 4408695232700387619}
   - component: {fileID: 4408695232700387616}
   - component: {fileID: 4408695232700387617}
-  - component: {fileID: 4408695232700387618}
+  - component: {fileID: 9010175418845071928}
+  - component: {fileID: 624241932}
   m_Layer: 0
   m_Name: _PlayerManager
   m_TagString: Untagged
@@ -45,6 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97750917c9bbe6d45888ae07bc9974bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Config: {fileID: 11400000, guid: d253b24bafe55434996e028f799f1eb8, type: 2}
 --- !u!114 &4408695232700387617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,19 +89,155 @@ MonoBehaviour:
     m_ActionId: c53f2231-134c-4607-be46-af3b63b2b473
     m_ActionName: Player/Interaction[/Mouse/leftButton]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4408695232700387616}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnCameraMoveInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 99fb3260-8b26-4f27-b8f1-84c71d5e6f6b
     m_ActionName: Player/CameraMovement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4408695232700387616}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnCameraRotInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: eb06e22c-1800-4b7e-bcb8-6c3bc35b6e71
     m_ActionName: Player/CameraRotation[/Mouse/delta/y,/Mouse/delta/y,/Mouse/delta/x,/Mouse/delta/x]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4408695232700387616}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnCameraRotInputLock
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 637cffe8-8899-47fb-ba70-6d532aa00442
+    m_ActionName: Player/CameraRotationLock[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4408695232700387616}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnTemp
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: f426ff66-61ce-44b4-b8ff-3dcbf29337e4
+    m_ActionName: Player/Temp[/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4408695232700387616}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnTarget
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: bb54711d-8044-4bc3-aa30-ae9df273a1b4
+    m_ActionName: Combatmode/Interaction[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4408695232700387616}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnCameraMoveInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 91368732-5ea5-4e65-9671-7b6c288d554f
+    m_ActionName: Combatmode/CameraMovement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4408695232700387616}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnCameraRotInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 9a069dd1-995e-45ab-b6c8-7ede55c0559e
+    m_ActionName: Combatmode/CameraRotation[/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4408695232700387616}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnCameraRotInputLock
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: f2d0e554-70a6-4b51-8f36-7ad0261f4f0f
+    m_ActionName: Combatmode/CameraRotationLock[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4408695232700387616}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnTemp
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: abe8ff79-8769-4d04-8864-9f837cde6d27
+    m_ActionName: Combatmode/Temp[/Keyboard/enter]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: Freemode
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &4408695232700387618
+--- !u!114 &9010175418845071928
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,7 +246,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 4408695232700387630}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1a3988968c717949a6c0268d8423314, type: 3}
+  m_Script: {fileID: 11500000, guid: ce2241988c5e7194fad79c0657944001, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PanSprite: {fileID: 21300000, guid: cf1395b502c3a4a4c84ef15abdd7ba7d, type: 3}
+  DefaultSprite: {fileID: 21300000, guid: e111d91214eb2c740861f1f21e09668b, type: 3}
+  AttackSprite: {fileID: 21300000, guid: b92780b6ce7690d43935c4c7f9aba4c1, type: 3}
+  TextPrefab: {fileID: 8338088670627649116, guid: 8606a082dbad6a148b6f6a6828d1dcdf, type: 3}
   SelectionBoxPrefab: {fileID: 1868428096539294610, guid: 06d5362e2999388468cc420e1ab8b536, type: 3}
+--- !u!114 &624241932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4408695232700387630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6a4015ef94afc419014713d2aef09d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MovementSpeed: 0
+  Sensitivity: 0
